@@ -3,16 +3,16 @@ entries:
   jupyterhub:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-05-20T10:05:27.807137057+02:00"
+    created: "2020-05-20T10:37:02.093939212+02:00"
     description: Multi-user Jupyter installation
-    digest: f2209cb827a66f3d97a90697eb0f7cb393336ed22e7a9a7492d530271d3ec324
+    digest: 5526fd8304c32614c498dacd03de06f0a436372ef12058f52ea8e5db34936a4c
     home: https://z2jh.jupyter.org
     icon: https://jupyter.org/assets/hublogo.svg
     kubeVersion: '>=1.11.0-0'
     name: jupyterhub
     sources:
-    - https://github.com/remche/zero-to-jupyterhub-k8s
+    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
     urls:
     - https://remche.github.io/helm-chart/jupyterhub-0.9.0-n068.h5fcd79f.tgz
     version: 0.9.0-n068.h5fcd79f
-generated: "2020-05-20T10:05:27.800342321+02:00"
+generated: "2020-05-20T10:37:02.088133531+02:00"
