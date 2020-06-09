@@ -1,32 +1,16 @@
 apiVersion: v1
 entries:
-  jupyterhub:
+  z2jh4k8s:
   - apiVersion: v1
-    appVersion: 1.1.0
-    created: "2020-05-20T10:48:08.717388512+02:00"
-    description: Multi-user Jupyter installation
-    digest: 65216d6bee38a6af8734ee4d8f28699c45beb4c2d25b1334dbe05963bf29eb77
-    home: https://z2jh.jupyter.org
-    icon: https://jupyter.org/assets/hublogo.svg
-    kubeVersion: '>=1.11.0-0'
-    name: jupyterhub
-    sources:
-    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
+    created: "2020-06-09T14:58:37.098780774+02:00"
+    dependencies:
+    - name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart
+      version: 0.9.0
+    description: A helm chart for using z2jh for k8s lessons
+    digest: 5ff123db25982c4fe6b98426e6e21117a8ca6be75a73fd89318b115b897e3a36
+    name: z2jh4k8s
     urls:
-    - https://remche.github.io/helm-chart/jupyterhub-0.9.0-n069.h50759be.tgz
-    version: 0.9.0-n069.h50759be
-  - apiVersion: v1
-    appVersion: 1.1.0
-    created: "2020-05-20T10:37:02.093939212+02:00"
-    description: Multi-user Jupyter installation
-    digest: 5526fd8304c32614c498dacd03de06f0a436372ef12058f52ea8e5db34936a4c
-    home: https://z2jh.jupyter.org
-    icon: https://jupyter.org/assets/hublogo.svg
-    kubeVersion: '>=1.11.0-0'
-    name: jupyterhub
-    sources:
-    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
-    urls:
-    - https://remche.github.io/helm-chart/jupyterhub-0.9.0-n068.h5fcd79f.tgz
-    version: 0.9.0-n068.h5fcd79f
-generated: "2020-05-20T10:48:08.709810476+02:00"
+    - https://www.remche.org/helm-chart/z2jh4k8s-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-06-09T14:58:37.093894394+02:00"
