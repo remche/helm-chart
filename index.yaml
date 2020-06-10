@@ -2,15 +2,15 @@ apiVersion: v1
 entries:
   z2jh4k8s:
   - apiVersion: v1
-    created: "2020-06-09T22:41:33.679623814+02:00"
+    created: "2020-06-10T16:36:43.996627578+02:00"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart
       version: 0.9.0
     description: A helm chart for using z2jh for k8s lessons
-    digest: f9b7de38cd139731057922f7092859468dc5e80e37204f2095707070db81bb68
+    digest: 7b8bdfb89623aef96ff22fed5361dceb9c65dab522e55077ebe4735492c367c8
     name: z2jh4k8s
     urls:
     - https://charts.remche.org/z2jh4k8s-0.0.1.tgz
     version: 0.0.1
-generated: "2020-06-09T22:41:33.672382715+02:00"
+generated: "2020-06-10T16:36:43.988208806+02:00"
