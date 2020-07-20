@@ -1,8 +1,19 @@
 apiVersion: v1
 entries:
+  shinyproxy:
+  - apiVersion: v2
+    appVersion: 2.3.1
+    created: "2020-07-20T21:49:03.572636704+02:00"
+    description: A Helm chart for Kubernetes
+    digest: b9adc690c4a9f1cf5f5ca38543ca6b7cd1a9d9ee0597afe2e342ca3346625991
+    name: shinyproxy
+    type: application
+    urls:
+    - https://charts.remche.org/shinyproxy-0.1.0.tgz
+    version: 0.1.0
   z2jh4k8s:
   - apiVersion: v1
-    created: "2020-06-19T14:37:21.641298933+02:00"
+    created: "2020-07-20T21:49:03.581641801+02:00"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart
@@ -14,7 +25,7 @@ entries:
     - https://charts.remche.org/z2jh4k8s-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
-    created: "2020-06-19T14:37:21.635286593+02:00"
+    created: "2020-07-20T21:49:03.577756176+02:00"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart
@@ -25,4 +36,4 @@ entries:
     urls:
     - https://charts.remche.org/z2jh4k8s-0.0.1.tgz
     version: 0.0.1
-generated: "2020-06-19T14:37:21.627131966+02:00"
+generated: "2020-07-20T21:49:03.571923708+02:00"
