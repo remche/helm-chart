@@ -3,7 +3,17 @@ entries:
   shinyproxy:
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2020-07-21T12:41:05.052249929+02:00"
+    created: "2020-07-21T22:42:06.747954638+02:00"
+    description: A Helm chart to install Shinyproxy
+    digest: 33f18eefd3ddb2bf127dd6bc19badbd33c69d99d4bbef214a3de612c2d3f138a
+    name: shinyproxy
+    type: application
+    urls:
+    - https://charts.remche.org/shinyproxy-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 2.3.1
+    created: "2020-07-21T22:42:06.747193741+02:00"
     description: A Helm chart to install Shinyproxy
     digest: 36dfaef74bb7df823cf8df8e2d1a9b201631d90f4c44082148a6c8ac95e6662b
     name: shinyproxy
@@ -13,7 +23,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2020-07-21T12:41:05.051751476+02:00"
+    created: "2020-07-21T22:42:06.746672729+02:00"
     description: A Helm chart to install Shinyproxy
     digest: 4f4231f6db0cd6e3a5eb34a186af3cb6975293ecfad60e0f6ae517329a54371a
     name: shinyproxy
@@ -23,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2020-07-21T12:41:05.051227285+02:00"
+    created: "2020-07-21T22:42:06.746145432+02:00"
     description: A Helm chart to install Shinyproxy
     digest: 2946be7089ecd47d142b8ebeff38aeadaeef9a7eb0d7fc5fe0a91eff63edefaf
     name: shinyproxy
@@ -33,7 +43,7 @@ entries:
     version: 0.1.0
   z2jh4k8s:
   - apiVersion: v1
-    created: "2020-07-21T12:41:05.067775269+02:00"
+    created: "2020-07-21T22:42:06.764458361+02:00"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart
@@ -45,7 +55,7 @@ entries:
     - https://charts.remche.org/z2jh4k8s-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
-    created: "2020-07-21T12:41:05.060680814+02:00"
+    created: "2020-07-21T22:42:06.756753172+02:00"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart
@@ -56,4 +66,4 @@ entries:
     urls:
     - https://charts.remche.org/z2jh4k8s-0.0.1.tgz
     version: 0.0.1
-generated: "2020-07-21T12:41:05.050593676+02:00"
+generated: "2020-07-21T22:42:06.745537193+02:00"
