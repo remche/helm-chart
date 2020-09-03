@@ -3,7 +3,17 @@ entries:
   shinyproxy:
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2020-08-26T11:59:07.536912461+02:00"
+    created: "2020-09-03T15:03:13.548805026+02:00"
+    description: A Helm chart to install Shinyproxy
+    digest: 86707b1eb843fdbf4b5d818860b6f3a8cd2ca21057cc9e44bc55d47e8c76860b
+    name: shinyproxy
+    type: application
+    urls:
+    - https://charts.remche.org/shinyproxy-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
+    appVersion: 2.3.1
+    created: "2020-09-03T15:03:13.547289543+02:00"
     description: A Helm chart to install Shinyproxy
     digest: 49069727a7a162d95c592ec3087e24c011200a825116fa29b12cbc0772a6dcec
     name: shinyproxy
@@ -13,7 +23,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2020-08-26T11:59:07.535459419+02:00"
+    created: "2020-09-03T15:03:13.53775759+02:00"
     description: A Helm chart to install Shinyproxy
     digest: 33f18eefd3ddb2bf127dd6bc19badbd33c69d99d4bbef214a3de612c2d3f138a
     name: shinyproxy
@@ -23,7 +33,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2020-08-26T11:59:07.533239028+02:00"
+    created: "2020-09-03T15:03:13.527921099+02:00"
     description: A Helm chart to install Shinyproxy
     digest: 36dfaef74bb7df823cf8df8e2d1a9b201631d90f4c44082148a6c8ac95e6662b
     name: shinyproxy
@@ -33,7 +43,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2020-08-26T11:59:07.517173369+02:00"
+    created: "2020-09-03T15:03:13.511075915+02:00"
     description: A Helm chart to install Shinyproxy
     digest: 4f4231f6db0cd6e3a5eb34a186af3cb6975293ecfad60e0f6ae517329a54371a
     name: shinyproxy
@@ -43,7 +53,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.3.1
-    created: "2020-08-26T11:59:07.516436157+02:00"
+    created: "2020-09-03T15:03:13.510373371+02:00"
     description: A Helm chart to install Shinyproxy
     digest: 2946be7089ecd47d142b8ebeff38aeadaeef9a7eb0d7fc5fe0a91eff63edefaf
     name: shinyproxy
@@ -53,7 +63,7 @@ entries:
     version: 0.1.0
   z2jh4k8s:
   - apiVersion: v1
-    created: "2020-08-26T11:59:07.553738843+02:00"
+    created: "2020-09-03T15:03:13.560873781+02:00"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart
@@ -65,7 +75,7 @@ entries:
     - https://charts.remche.org/z2jh4k8s-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
-    created: "2020-08-26T11:59:07.545563695+02:00"
+    created: "2020-09-03T15:03:13.555164756+02:00"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart
@@ -76,4 +86,4 @@ entries:
     urls:
     - https://charts.remche.org/z2jh4k8s-0.0.1.tgz
     version: 0.0.1
-generated: "2020-08-26T11:59:07.515705142+02:00"
+generated: "2020-09-03T15:03:13.491537439+02:00"
